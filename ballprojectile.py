@@ -31,7 +31,7 @@ class target(object):
         self.height = height
     def draw(self,win):
         #pygame.draw.line(win,self.color,(self.x,self.y+5),(self.x,self.height),3)
-        pygame.draw.line(win,self.color,(self.x + spawn + move,self.y+self.height-445),(self.x+self.length + spawn + move,self.y+self.height-445),3)
+        pygame.draw.line(win,self.color,(self.x + spawn + move,self.y+self.height-445),(self.x+self.length + spawn + move,self.y+self.height-445),7)
         #pygame.draw.line(win,self.color,(self.x+self.length,self.y+5),(self.x+self.length,self.height),3)
 class ball(object):
     def __init__(self,x,y,radius,color):
