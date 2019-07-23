@@ -4,7 +4,7 @@ Requirements
 Before downloading please install pygames
 Installing pygames can be done by typing in the powershell 
 ```
-pip -install pygames
+pip -install pygame
 ```
 To play the game there are only 2 controls, shoot and adjust power and angle.
 To shoot press q and to adjust the power and angle use the mouse. 
